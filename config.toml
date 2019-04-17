@@ -1,9 +1,9 @@
 baseURL = "https://ltdislab.github.io/"
 languageCode = "en-us"
-title = "IS Lab"
+title = "ის ლაბ - IS Lab"
 theme = "coder-portfolio"
 googleAnalytics = "UA-138529749-1"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "ka"
 
 paginate = 20
 
@@ -13,11 +13,11 @@ pygmentscodefencesguesssyntax = true
 pygmentsUseClasses = true
 
 [params]
-    author = "IS Lab"
+    author = "ის ლაბ - IS Lab"
     description = "ის ლაბი არის საკონსულტაციო კომპანია, რომელიც დაგეხმარებათ თქვენს კომპანიაში არსებული ბიზნეს პროცესების შესწავლაში, მათ ოპტიმიზაციასა და ავტომატიზაციაში. სხვაგვარად რომ ვთქვათ, ჩვენ შევისწავლით თქვენს საქმიანობას, მოგისმენთ რომ გავიგოთ თუ რა არ მოგწონთ, რას შეცვლიდით ან გააუმჯობესებდით. გეტყვით ჩვენს მოსაზრებასა და ხედვას, ხოლო ამის შემდგომ უკვე თქვენთან ერთად და შეთანხმებით მოვიფიქრებთ საუკეთესო გადაწყვეტას, რომელის განუყოფელი ნაწილიც იქნება პორტალის, საიტისა თუ რაიმე სახის საინფორმაციო სისტემის შექმნა. იმისათვის რომ სწორად მივიტანოთ ჩვენი ნამსჯელი და ნაფიქრი გადაწყვეტა დეველოპერებამდე - დაგიწერთ ფუნქციონალის აღწერის დოკუმენტს (ე.წ. ტექნიკურ დავალებას)."
     keywords = "blog,developer,personal"
     info = "საკონსულტაციო კომპანია"
-    avatarurl = "images/avatar.jpg"
+    avatarurl = "images/islab_bulb.png"
     footercontent = "Enter a text here."
     # fixedbarContent = "Do you want to know me more private?→"
     # fixedbarContentAfter = "Thank You! Please share it if you like it→"
@@ -27,7 +27,7 @@ pygmentsUseClasses = true
 
     snsShare = false
 
-    thumbnail = "images/avatar.jpg"
+    thumbnail = "images/islab_bulb.png"
 
     # Custom CSS
     custom_css = [
@@ -54,32 +54,22 @@ pygmentsUseClasses = true
     [languages.en]
         languagecode = "en"
         languagename = "English" # The language name to be displayed in the selector.
-        title = "IS Lab"
+        title = "ის ლაბ - IS Lab"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-            author = "IS Lab"
+            author = "ის ლაბ - IS Lab"
             description = "ის ლაბი არის საკონსულტაციო კომპანია, რომელიც დაგეხმარებათ თქვენს კომპანიაში არსებული ბიზნეს პროცესების შესწავლაში, მათ ოპტიმიზაციასა და ავტომატიზაციაში. "
             keywords = "blog,developer,personal"
             info = "Consulting"
-            avatarurl = "images/avatar.jpg"
+            avatarurl = "images/islab_bulb.png"
 
-        [languages.en.menu] # It is possible to change the menu too.
+        [languages.en.menu]
 
             [[languages.en.menu.main]]
                 name = "About"
                 weight = 1.0
                 url = "about"
-
-            [[languages.en.menu.main]]
-                name = "Team"
-                weight = 2
-                url = "team"
-
-            [[languages.en.menu.main]]
-                name = "Projects"
-                weight = 3
-                url = "projects"
 
             [[languages.en.menu.main]]
                 name = "Contact"
@@ -88,32 +78,22 @@ pygmentsUseClasses = true
     [languages.ka]
         languagecode = "ka"
         languagename = "ქართულად" # The language name to be displayed in the selector.
-        title = "ის ლაბ"
+        title = "ის ლაბ - IS Lab"
 
         # You can configure the theme parameter for each language.
         [languages.ka.params]
-            author = "ის ლაბ"
+            author = "ის ლაბ - IS Lab"
             description = "ის ლაბი არის საკონსულტაციო კომპანია, რომელიც დაგეხმარებათ თქვენს კომპანიაში არსებული ბიზნეს პროცესების შესწავლაში, მათ ოპტიმიზაციასა და ავტომატიზაციაში. "
             keywords = "blog,developer,personal"
             info = "კონსალტინგი"
-            avatarurl = "images/avatar.jpg"
+            avatarurl = "images/islab_bulb.png"
 
-        [languages.ka.menu] # It is possible to change the menu too.
+        [languages.ka.menu]
 
             [[languages.ka.menu.main]]
                 name = "შესახებ"
                 weight = 1.0
                 url = "about"
-
-            [[languages.ka.menu.main]]
-                name = "გუნდი"
-                weight = 2
-                url = "team"
-
-            [[languages.ka.menu.main]]
-                name = "პროექტები"
-                weight = 3
-                url = "projects"
 
             [[languages.ka.menu.main]]
                 name = "დაგვიკავშირდი"

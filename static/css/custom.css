@@ -4,14 +4,37 @@ h1, h2, h3, h4 {
     /* font-family: 'Fira Mono', monospace; */
     /* font-family: 'Nova Mono', monospace; */
     /* font-family: 'B612 Mono', monospace; */
+    /* font-family: 'Dancing Script', "BPG Irubaqidze", cursive, sans-serif; */
     font-family: 'Dancing Script', "BPG Irubaqidze", cursive, sans-serif;
     text-transform: capitalize;
     color: #a9a9b3;
 }
 body {
     font-family: 'Ubuntu Mono', monospace;
-    background-color: #292a2d;
+    background-color: #272729;
     color: #a9a9b3;
+    background-image: url("../images/islab-bg.jpg");
+    /* background-color: #fcfcfc; */
+}
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.content-wrapper {
+    /* min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); */
+}
+.navigation .nav-wrap {
+    /* background: rgba(0,0,0,0.8); */
+    height:60px;
+}
+/* .navigation .nav-wrap .container {
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+.about .avatar img {
+    border-radius: 0;
 }
 a, p a {
     font-weight: normal;
@@ -24,15 +47,44 @@ a:hover {
     opacity: 0.75;
 }
 .navigation {
-    background-color: #252627;
+    position: sticky;
+    top: 0px;
+    border: 0;
+    /* background-image: url("../images/islab-bg.jpg"); */
+    background-size: cover;
+    background-position: center;
+    /* background-color: #252627; */
+    z-index: 100;
+    /* background-color: #fff; */
+    /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+    height:60px;
 }
+
 .navigation .navigation-title {
     font-size: 2.5rem;
+    padding-left: 4rem;
+    color: #fcfcfc;
 }
 .navigation .navigation-title::after, .navigation .navigation-title::before {
     display: none;
 }
-.navigation .navigation-title span {
+.navigation .navigation-title img {
+    position: absolute;
+    width: 2.75rem;
+    height: auto;
+    left: 0;
+    top: -5px;
+    /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+}
+@media only screen and (max-device-width: 768px) and (min-device-width: 320px) {
+    .navigation ul{
+        top: auto;
+        transform: translateY(6.1rem);
+    }
+}
+
+
+.navigation .navigation-title .sub-title {
     position: absolute;
     font-size: 0.7rem;
     top: 0px;
@@ -47,6 +99,7 @@ a:hover {
     font-size: 2rem;
     text-transform: capitalize;
     letter-spacing: .2rem;
+    color: #a9a9b3;
 }
 a:before,  a:after {
     height: 0;
@@ -54,7 +107,7 @@ a:before,  a:after {
 
 .navigation a:before, .navigation a:after {
     height: 1px;
-    background: #a9a9b3;
+    /* background: #a9a9b3; */
     transition: 0.2s;
     bottom: -5px;
 }
