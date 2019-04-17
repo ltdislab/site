@@ -1,14 +1,22 @@
-baseURL = "https://tornike.me/"
+baseURL = "https://ltdislab.github.io/"
 languageCode = "en-us"
-title = "Tornike Razmadze"
+title = "IS Lab"
 theme = "coder-portfolio"
-googleAnalytics = "UA-4951070-18"
+googleAnalytics = "UA-138529749-1"
+DefaultContentLanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
 
 [params]
-    author = "Tornike Razmadze"
-    description = "Developer since 2001. Always in search of something new and eager to study and become a better professional. Fullstack Developer. Enjoy sharing information and experience. Think that is a way of learning something new."
+    author = "IS Lab"
+    description = "ის ლაბი არის საკონსულტაციო კომპანია, რომელიც დაგეხმარებათ თქვენს კომპანიაში არსებული ბიზნეს პროცესების შესწავლაში, მათ ოპტიმიზაციასა და ავტომატიზაციაში. სხვაგვარად რომ ვთქვათ, ჩვენ შევისწავლით თქვენს საქმიანობას, მოგისმენთ რომ გავიგოთ თუ რა არ მოგწონთ, რას შეცვლიდით ან გააუმჯობესებდით. გეტყვით ჩვენს მოსაზრებასა და ხედვას, ხოლო ამის შემდგომ უკვე თქვენთან ერთად და შეთანხმებით მოვიფიქრებთ საუკეთესო გადაწყვეტას, რომელის განუყოფელი ნაწილიც იქნება პორტალის, საიტისა თუ რაიმე სახის საინფორმაციო სისტემის შექმნა. იმისათვის რომ სწორად მივიტანოთ ჩვენი ნამსჯელი და ნაფიქრი გადაწყვეტა დეველოპერებამდე - დაგიწერთ ფუნქციონალის აღწერის დოკუმენტს (ე.წ. ტექნიკურ დავალებას)."
     keywords = "blog,developer,personal"
-    info = "Software Engineer, Developer, Go (golang) enthusiast"
+    info = "საკონსულტაციო კომპანია"
     avatarurl = "images/avatar.jpg"
     footercontent = "Enter a text here."
     # fixedbarContent = "Do you want to know me more private?→"
@@ -22,7 +30,12 @@ googleAnalytics = "UA-4951070-18"
     thumbnail = "images/avatar.jpg"
 
     # Custom CSS
-    custom_css = ["https://fonts.googleapis.com/css?family=B612+Mono|Dancing+Script|Fira+Mono|Nova+Mono|Ubuntu+Mono", "css/custom.css"]
+    custom_css = [
+        "https://fonts.googleapis.com/css?family=B612+Mono|Dancing+Script|Fira+Mono|Nova+Mono|Ubuntu+Mono",
+        "//cdn.web-fonts.ge/fonts/bpg-boxo/css/bpg-boxo.min.css",
+        "//cdn.web-fonts.ge/fonts/bpg-irubaqidze/css/bpg-irubaqidze.min.css",
+        "css/custom.css"
+    ]
 
     # Alignment of Mobile Menu items
     itemscentered = true
@@ -33,31 +46,22 @@ googleAnalytics = "UA-4951070-18"
     langseparator = "|"
 
 [[params.social]]
-    name = "Github"
+    name = "Facebook"
     weight = 1
-    url = "https://github.com/torniker/"
-[[params.social]]
-    name = "Twitter"
-    weight = 2
-    url = "https://twitter.com/torniker/"
-[[params.social]]
-    name = "LinkedIn"
-    weight = 3
-    url = "https://www.linkedin.com/in/torniker/"
-
+    url = "https://www.facebook.com/ISLabGeorgia/"
 
 [languages]
     [languages.en]
         languagecode = "en"
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Tornike Razmadze"
+        title = "IS Lab"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-            author = "Tornike Razmadze"
-            description = "Developer since 2001. Always in search of something new and eager to study and become a better professional. Fullstack Developer. Enjoy sharing information and experience. Think that is a way of learning something new."
+            author = "IS Lab"
+            description = "ის ლაბი არის საკონსულტაციო კომპანია, რომელიც დაგეხმარებათ თქვენს კომპანიაში არსებული ბიზნეს პროცესების შესწავლაში, მათ ოპტიმიზაციასა და ავტომატიზაციაში. "
             keywords = "blog,developer,personal"
-            info = "Software Engineer - Gopher"
+            info = "Consulting"
             avatarurl = "images/avatar.jpg"
 
         [languages.en.menu] # It is possible to change the menu too.
@@ -68,12 +72,51 @@ googleAnalytics = "UA-4951070-18"
                 url = "about"
 
             [[languages.en.menu.main]]
-                name = "Blog"
-                weight = 2.0
-                url = "posts"
+                name = "Team"
+                weight = 2
+                url = "team"
 
             [[languages.en.menu.main]]
                 name = "Projects"
                 weight = 3
                 url = "projects"
+
+            [[languages.en.menu.main]]
+                name = "Contact"
+                weight = 5
+                url = "contact"
+    [languages.ka]
+        languagecode = "ka"
+        languagename = "ქართულად" # The language name to be displayed in the selector.
+        title = "ის ლაბ"
+
+        # You can configure the theme parameter for each language.
+        [languages.ka.params]
+            author = "ის ლაბ"
+            description = "ის ლაბი არის საკონსულტაციო კომპანია, რომელიც დაგეხმარებათ თქვენს კომპანიაში არსებული ბიზნეს პროცესების შესწავლაში, მათ ოპტიმიზაციასა და ავტომატიზაციაში. "
+            keywords = "blog,developer,personal"
+            info = "კონსალტინგი"
+            avatarurl = "images/avatar.jpg"
+
+        [languages.ka.menu] # It is possible to change the menu too.
+
+            [[languages.ka.menu.main]]
+                name = "შესახებ"
+                weight = 1.0
+                url = "about"
+
+            [[languages.ka.menu.main]]
+                name = "გუნდი"
+                weight = 2
+                url = "team"
+
+            [[languages.ka.menu.main]]
+                name = "პროექტები"
+                weight = 3
+                url = "projects"
+
+            [[languages.ka.menu.main]]
+                name = "დაგვიკავშირდი"
+                weight = 5
+                url = "contact"
 
