@@ -72,6 +72,11 @@ pygmentsUseClasses = true
                 url = "about"
 
             [[languages.en.menu.main]]
+                name = "Blog"
+                weight = 3
+                url = "blog"
+
+            [[languages.en.menu.main]]
                 name = "Contact"
                 weight = 5
                 url = "contact"
@@ -94,6 +99,11 @@ pygmentsUseClasses = true
                 name = "შესახებ"
                 weight = 1.0
                 url = "about"
+            
+            [[languages.ka.menu.main]]
+                name = "ბლოგი"
+                weight = 3
+                url = "blog"
 
             [[languages.ka.menu.main]]
                 name = "დაგვიკავშირდი"
