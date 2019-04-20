@@ -1,15 +1,20 @@
 +++
-title = "About Me"
+title = "About Us"
 slug = "about"
 thumbnail = "images/avatar.jpg"
-description = "about IS Lab"
+description = "about IS Lab Team"
 +++
 
 
-# maka
-## test
-ის ლაბი არის საკონსულტაციო კომპანია, რომელიც დაგეხმარებათ თქვენს კომპანიაში არსებული ბიზნეს პროცესების შესწავლაში, მათ ოპტიმიზაციასა და ავტომატიზაციაში.
 
-1231231
+Our Company is pretty new and young, but our team members have 10+ years of experience both in Governmental and Private sectors. They have worked with different International Organizations in frames of different projects. 
+Our Team Members have 
 
-სხვაგვარად რომ ვთქვათ, ჩვენ შევისწავლით თქვენს საქმიანობას, მოგისმენთ რომ გავიგოთ თუ რა არ მოგწონთ, რას შეცვლიდით ან გააუმჯობესებდით. გეტყვით ჩვენს მოსაზრებასა და ხედვას, ხოლო ამის შემდგომ უკვე თქვენთან ერთად და შეთანხმებით მოვიფიქრებთ საუკეთესო გადაწყვეტას, რომელის განუყოფელი ნაწილიც იქნება პორტალის, საიტისა თუ რაიმე სახის საინფორმაციო სისტემის შექმნა. იმისათვის რომ სწორად მივიტანოთ ჩვენი ნამსჯელი და ნაფიქრი გადაწყვეტა დეველოპერებამდე - დაგიწერთ ფუნქციონალის აღწერის დოკუმენტს (ე.წ. ტექნიკურ დავალებას).
+- Analyzed 200+ services, systems and platforms
+- Fundamental Knowledge in Information Security 
+- Managed large projects such as:
+ * *Internet-Mobile and SMS Bank Creation*
+ * *Implementation of Core Banking System*
+ * *Billing System Swap for Telecommunications Company*
+
+And now they are willing to direct all this experience towards Success of Your Company!

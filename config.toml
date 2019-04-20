@@ -67,14 +67,14 @@ pygmentsUseClasses = true
         [languages.en.menu]
 
             [[languages.en.menu.main]]
-                name = "About"
-                weight = 1.0
+                name = "About Us"
+                weight = 3.0
                 url = "about"
 
             [[languages.en.menu.main]]
-                name = "Blog"
-                weight = 3
-                url = "blog"
+                name = "What we Do ?"
+                weight = 1.0
+                url = "whatwedo"
 
             [[languages.en.menu.main]]
                 name = "Contact"
@@ -96,17 +96,17 @@ pygmentsUseClasses = true
         [languages.ka.menu]
 
             [[languages.ka.menu.main]]
-                name = "შესახებ"
-                weight = 1.0
+                name = "ჩვენს შესახებ"
+                weight = 3.0
                 url = "about"
             
             [[languages.ka.menu.main]]
-                name = "ბლოგი"
-                weight = 3
-                url = "blog"
+                name = "რას ვაკეთებთ?"
+                weight = 1.0
+                url = "whatwedo"
 
             [[languages.ka.menu.main]]
-                name = "დაგვიკავშირდი"
+                name = "კონტაქტი"
                 weight = 5
                 url = "contact"
 

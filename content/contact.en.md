@@ -5,11 +5,7 @@ thumbnail = "images/avatar.jpg"
 description = "Contact Information"
 +++
 
-*Here is some ways how you can contact us:*
-
-> Phone: 555 123456
-
-> Fax: who uses fax?
+*Here are some ways you can contact us:*
 
 > E-mail: ltd.islab@gmail.com
 
