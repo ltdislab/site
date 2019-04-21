@@ -12,7 +12,7 @@ Our Team Members have
 
 - Analyzed 200+ services, systems and platforms
 - Fundamental Knowledge in Information Security 
-- Managed large projects such as:
+- Managed large projects for instance such as:
  * *Internet-Mobile and SMS Bank Creation*
  * *Implementation of Core Banking System*
  * *Billing System Swap for Telecommunications Company*
