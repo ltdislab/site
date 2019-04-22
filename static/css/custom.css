@@ -5,12 +5,20 @@ h1, h2, h3, h4 {
     /* font-family: 'Nova Mono', monospace; */
     /* font-family: 'B612 Mono', monospace; */
     /* font-family: 'Dancing Script', "BPG Irubaqidze", cursive, sans-serif; */
-    font-family: 'Dancing Script', "BPG Irubaqidze", cursive, sans-serif;
+    /* font-family: 'Dancing Script', "BPG Irubaqidze", cursive, sans-serif; */
+    /* font-family: "BPG Nateli", 'Ubuntu Mono', monospace, sans-serif; */
+    font-family: "Ubuntu Mono", "MG Glaho Drunk", sans-serif;
+
+    /* font-family: "BPG Nino Medium", sans-serif; */
+    /* font-family: "BPG Algeti", sans-serif; */
+    /* font-family: "ALK Life", sans-serif; */
+
     text-transform: capitalize;
     color: #a9a9b3;
 }
 body {
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Roboto', "BPG Nino Medium", monospace, sans-serif;
+    font-size: 18px;
     background-color: #272729;
     color: #a9a9b3;
     background-image: url("../images/islab-bg.jpg");
@@ -35,7 +43,6 @@ body {
 }
 a, p a {
     font-weight: normal;
-    font-family: 'Ubuntu Mono', monospace;
     transition: none;
     color: #a9a9b3;
     text-decoration: none;
@@ -47,6 +54,7 @@ a:hover {
     position: sticky;
     top: 0px;
     border: 0;
+    background-color: rgba(0,0,0,0.75);
     /* background-image: url("../images/islab-bg.jpg"); */
     background-size: cover;
     background-position: center;
@@ -75,8 +83,12 @@ a:hover {
 }
 @media only screen and (max-device-width: 768px) and (min-device-width: 320px) {
     .navigation ul{
-        top: auto;
+        top: -1px;
         transform: translateY(6.1rem);
+        background-color: rgba(0,0,0,0.75);
+    }
+    .btn-mobile {
+        color: #fff;
     }
 }
 
@@ -92,7 +104,12 @@ a:hover {
     transform: translateX(-50%); */
 }
 .navigation a {
-    font-family: 'Dancing Script', "BPG Irubaqidze", cursive, sans-serif;
+    /* font-family: 'Dancing Script', "BPG Irubaqidze", cursive, sans-serif; */
+    font-family: "Ubuntu mono", "MG Glaho Drunk", sans-serif;
+
+    /* font-family: "BPG Nino Medium", sans-serif; */
+    /* font-family: "BPG Algeti", sans-serif; */
+    /* font-family: "ALK Life", sans-serif; */
     font-size: 2rem;
     text-transform: capitalize;
     letter-spacing: .2rem;

@@ -1,4 +1,4 @@
-baseURL = "https://ltdislab.github.io/"
+baseURL = "https://islab.ge/"
 languageCode = "en-us"
 title = "ის ლაბ - IS Lab"
 theme = "coder-portfolio"
@@ -31,9 +31,13 @@ pygmentsUseClasses = true
 
     # Custom CSS
     custom_css = [
-        "https://fonts.googleapis.com/css?family=B612+Mono|Dancing+Script|Fira+Mono|Nova+Mono|Ubuntu+Mono",
-        "//cdn.web-fonts.ge/fonts/bpg-boxo/css/bpg-boxo.min.css",
-        "//cdn.web-fonts.ge/fonts/bpg-irubaqidze/css/bpg-irubaqidze.min.css",
+        # "https://fonts.googleapis.com/css?family=B612+Mono|Dancing+Script|Fira+Mono|Nova+Mono|Ubuntu+Mono",
+
+        "//cdn.web-fonts.ge/fonts/bpg-nino-medium/css/bpg-nino-medium.min.css",
+        "//cdn.web-fonts.ge/fonts/mg-glaho-drunk/css/mg-glaho-drunk.min.css",
+
+        "https://fonts.googleapis.com/css?family=Ubuntu+Mono|Roboto",
+
         "css/custom.css"
     ]
 
@@ -99,7 +103,7 @@ pygmentsUseClasses = true
                 name = "ჩვენს შესახებ"
                 weight = 3.0
                 url = "about"
-            
+
             [[languages.ka.menu.main]]
                 name = "რას ვაკეთებთ?"
                 weight = 1.0
