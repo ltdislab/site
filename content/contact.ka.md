@@ -7,7 +7,7 @@ description = "საკონტაქტო ინფორმაცია"
 
 *დაგვიკავშირდით და მიიღეთ საუკეთესო სერვისი საქართველოში:*
 
-> ელ-ფოსტა: ltd.islab@gmail.com
+> ელ-ფოსტა: info@islab.ge
 
 > ფეისბუქი: [https://www.facebook.com/ISLabGeorgia/](https://www.facebook.com/ISLabGeorgia/)
 
