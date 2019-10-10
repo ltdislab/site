@@ -81,6 +81,11 @@ pygmentsUseClasses = true
                 url = "whatwedo"
 
             [[languages.en.menu.main]]
+                name = "Testimonials"
+                weight = 4.0
+                url = "testimonials"
+
+            [[languages.en.menu.main]]
                 name = "Contact"
                 weight = 5
                 url = "contact"
@@ -108,6 +113,11 @@ pygmentsUseClasses = true
                 name = "რას ვაკეთებთ?"
                 weight = 1.0
                 url = "whatwedo"
+
+            [[languages.ka.menu.main]]
+                name = "ამბობენ"
+                weight = 4.0
+                url = "testimonials"
 
             [[languages.ka.menu.main]]
                 name = "კონტაქტი"
